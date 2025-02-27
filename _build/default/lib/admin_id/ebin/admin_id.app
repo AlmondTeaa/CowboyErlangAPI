@@ -1,0 +1,10 @@
+{application,admin_id,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{admin_id_app,[]}},
+              {applications,[kernel,stdlib,cowboy,jsx]},
+              {env,[]},
+              {modules,[admin_id_app,admin_id_sup,toppage_h]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
